@@ -1,0 +1,10 @@
+/home/ouroboros/repos/maxi/angular-springboot-demo/backend/src/main/java/ch/martinelli/demo/backend/person/PersonController.java
+/home/ouroboros/repos/maxi/angular-springboot-demo/backend/src/main/java/ch/martinelli/demo/backend/WebConfig.java
+/home/ouroboros/repos/maxi/angular-springboot-demo/backend/src/main/java/ch/martinelli/demo/backend/person/Person.java
+/home/ouroboros/repos/maxi/angular-springboot-demo/backend/src/main/java/ch/martinelli/demo/backend/person/PersonRepository.java
+/home/ouroboros/repos/maxi/angular-springboot-demo/backend/src/main/java/ch/martinelli/demo/backend/startup/PersonPopulator.java
+/home/ouroboros/repos/maxi/angular-springboot-demo/backend/src/main/java/ch/martinelli/demo/backend/auth/Roles.java
+/home/ouroboros/repos/maxi/angular-springboot-demo/backend/src/main/java/ch/martinelli/demo/backend/auth/AuthController.java
+/home/ouroboros/repos/maxi/angular-springboot-demo/backend/src/main/java/ch/martinelli/demo/backend/BackendApplication.java
+/home/ouroboros/repos/maxi/angular-springboot-demo/backend/src/main/java/ch/martinelli/demo/backend/person/PersonService.java
+/home/ouroboros/repos/maxi/angular-springboot-demo/backend/src/main/java/ch/martinelli/demo/backend/configuration/SecurityConfiguration.java
