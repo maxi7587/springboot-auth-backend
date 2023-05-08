@@ -3,6 +3,7 @@ ch/martinelli/demo/backend/WebConfig.class
 ch/martinelli/demo/backend/person/PersonController.class
 ch/martinelli/demo/backend/configuration/SecurityConfiguration.class
 ch/martinelli/demo/backend/BackendApplication.class
+ch/martinelli/demo/backend/base/BaseController.class
 ch/martinelli/demo/backend/startup/PersonPopulator.class
 ch/martinelli/demo/backend/person/PersonService.class
 ch/martinelli/demo/backend/auth/AuthController.class

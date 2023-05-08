@@ -62,7 +62,9 @@ public class SecurityConfiguration {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http
-                .authorizeHttpRequests((authorize) -> authorize.anyRequest().authenticated())
+                .authorizeHttpRequests((authorize) -> authorize
+                        .requestMatchers("/api").permitAll()
+                        .anyRequest().authenticated())
                 // CSRF is enabled
                 .csrf((csrf) -> csrf.ignoringRequestMatchers("/api/auth"))
                 .httpBasic(Customizer.withDefaults())
