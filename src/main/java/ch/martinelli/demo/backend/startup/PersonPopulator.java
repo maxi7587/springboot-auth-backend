@@ -16,12 +16,12 @@ public class PersonPopulator implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        Person p1 = new Person();
-        p1.setName("Fred Astaire");
-        personRepository.saveAndFlush(p1);
+        // Person p1 = new Person();
+        // p1.setName("Fred Astaire");
+        // personRepository.saveAndFlush(p1);
 
-        Person p2 = new Person();
-        p2.setName("Ginger Rogers");
-        personRepository.saveAndFlush(p2);
+        // Person p2 = new Person();
+        // p2.setName("Ginger Rogers");
+        // personRepository.saveAndFlush(p2);
     }
 }
