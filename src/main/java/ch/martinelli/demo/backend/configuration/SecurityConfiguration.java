@@ -62,12 +62,12 @@ public class SecurityConfiguration {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http
-                .cors().and()
+                .cors().and().csrf().disable()
                 .authorizeHttpRequests((authorize) -> authorize
                         .requestMatchers("/api").permitAll()
                         .anyRequest().authenticated())
                 // CSRF is enabled
-                .csrf((csrf) -> csrf.ignoringRequestMatchers("/api/auth"))
+                // .csrf((csrf) -> csrf.ignoringRequestMatchers("/api/auth"))
                 .httpBasic(Customizer.withDefaults())
                 // use JWT token
                 .oauth2ResourceServer(OAuth2ResourceServerConfigurer::jwt)
